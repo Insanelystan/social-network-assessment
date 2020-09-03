@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(177, 177, 226);
+  background-color: rgb(110, 110, 218);
 }
 
 header {
@@ -15,11 +15,17 @@ header {
 }
 
 .first-column {
+  position: relative;
   width: 328px;
+  border: 2px solid black;
+  left: 325px;
 }
 
 .second-column {
+  position: relative;
   width: 512px;
+  border: 2px solid black;
+  left: -90px;
 }
 
 .square1 {
@@ -46,6 +52,9 @@ header {
   column-count: 2;
   column-gap: 10px;
   margin-top: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
 }
 
 .third-square {
@@ -53,8 +62,8 @@ header {
   background-color: green;
   width: 100px;
   height: 100px;
-  top: -25px;
-  left: 800px;
+  top: 0px;
+  left: 340px;
 }
 
 .second-square {
@@ -62,6 +71,14 @@ header {
   background-color: rgb(78, 4, 78);
   width: 100px;
   height: 100px;
-  top: 20px;
-  left: -600px;
+  top: 0px;
+  left: -340px;
+}
+.intro {
+  position: relative;
+  color: white;
+  top: 100px;
+  left: 75px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
