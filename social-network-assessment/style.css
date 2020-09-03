@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(177, 177, 226);
+}
+
+header {
+  box-sizing: border-box;
+  background-color: rgb(97, 97, 172);
+  width: 850px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.first-column {
+  width: 328px;
+}
+
+.second-column {
+  width: 512px;
+}
+
+.square1 {
+  position: relative;
+  background-color: rgb(58, 58, 163);
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: -50px;
+}
+
+.nav {
+  position: relative;
+  top: 100px;
+  left: 500px;
+}
+.like {
+  position: relative;
+  left: 450px;
+  top: -127px;
+}
+
+.information {
+  column-count: 2;
+  column-gap: 10px;
+  margin-top: 25px;
+}
+
+.third-square {
+  position: relative;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  top: -25px;
+  left: 800px;
+}
+
+.second-square {
+  position: relative;
+  background-color: rgb(78, 4, 78);
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: -600px;
+}
